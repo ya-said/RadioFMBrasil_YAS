@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rádio Brasil FM</string>
+    <string name="notification_channel">Reprodução de rádio</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HTTP em claro so e aceito porque muitas radios brasileiras ainda nao tem HTTPS.
+     As chamadas a API do catalogo sao sempre HTTPS (ver RadioApp.kt). A validacao TLS NAO e desativada. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
